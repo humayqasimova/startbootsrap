@@ -1,4 +1,22 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+header {
+  background: #212529;
+}
+header .imgbox {
+  width: 189px;
+  margin: 43px 0;
+}
+header nav a {
+  font-size: 17px;
+  margin-left: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #ebe7e7;
+  letter-spacing: 0.0625em;
+}
+header nav a:hover {
+  color: #f0cd08;
 }/*# sourceMappingURL=style.css.map */
