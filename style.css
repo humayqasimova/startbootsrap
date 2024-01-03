@@ -28,28 +28,32 @@ header nav a:hover {
   color: #f0cd08;
 }
 
-#welcome .imgbox {
-  width: 100%;
+#welcome .box {
+  width: 800px;
+  height: 600px;
+  background-image: url(assestt/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#welcome .textbox h1 {
+#welcome .box .textbox h1 {
   font-size: 35px;
   margin-left: -30px;
   padding: 20px 0;
 }
-#welcome .textbox h2 {
+#welcome .box .textbox h2 {
   font-weight: 700;
   font-size: 80px;
 }
-#welcome .textbox .btn {
+#welcome .box .textbox .btn {
   width: 208px;
   height: 70px;
   background-color: #ffc800;
   border-radius: 8px;
 }
-#welcome .textbox .btn:hover {
+#welcome .box .textbox .btn:hover {
   background-color: #d9aa00;
 }
-#welcome .textbox .btn h5 {
+#welcome .box .textbox h5 {
   margin: 15px;
   font-size: 20px;
   font-weight: 700;
