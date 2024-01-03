@@ -71,4 +71,21 @@ header nav a:hover {
   margin: 15px;
   font-size: 20px;
   font-weight: 700;
+}
+
+#services {
+  padding: 60px 0;
+}
+#services .textbox .wid {
+  width: 485px;
+}
+#services .textbox h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #110e0e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#services .textbox h3 {
+  font-size: 18px;
+  color: #7a7474;
 }/*# sourceMappingURL=style.css.map */
