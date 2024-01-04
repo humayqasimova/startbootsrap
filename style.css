@@ -26,35 +26,45 @@ header nav a:hover {
   color: #f0cd08;
 }
 
-#welcome .box {
-  height: 700px;
+#welcome {
+  width: 100%;
+  height: 120vh;
   background-image: url(assestt/header-bg.jpg);
   background-size: cover;
-  position: relative;
+  background-position: center;
   z-index: -1;
 }
-#welcome .box .textbox {
-  position: absolute;
-  top: 270px;
-  left: 243px;
+#welcome .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0;
+  margin: 90px 0;
 }
 #welcome .box .textbox h1 {
-  font-size: 30px;
+  font-size: 38px;
   color: white;
 }
 #welcome .box .textbox h3 {
   font-weight: 700;
   font-size: 70px;
   color: white;
-  margin: 25px 0;
+  margin: 20px 0;
+  margin-right: 40px;
 }
 #welcome .box .textbox .btn {
-  width: 175px;
+  width: 200px;
   height: 60px;
   background-color: #FFc800;
+  margin-top: 33px;
 }
 #welcome .box .textbox .btn:hover {
   background-color: #d9aa00;
+}
+#welcome .box .textbox .btn h5 {
+  font-size: 18px;
+  color: white;
+  margin: 10px;
 }
 
 #services {
