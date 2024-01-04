@@ -33,31 +33,32 @@ header nav a:hover {
   background-size: cover;
   background-position: center;
   z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#welcome .textbox {
-  text-align: center;
-}
-#welcome .textbox h1 {
+#welcome .box .textbox h1 {
   font-size: 38px;
   color: white;
 }
-#welcome .textbox h3 {
+#welcome .box .textbox h3 {
   font-weight: 700;
   font-size: 70px;
   color: white;
   margin: 20px 0;
-  margin-right: 40px;
+  margin-right: 30px;
 }
-#welcome .btn {
+#welcome .box .btn {
   width: 200px;
   height: 60px;
-  background-color: #FFc800;
-  margin-top: 33px;
+  background-color: #ffc800;
+  margin-left: 230px;
+  margin-top: 90px;
 }
-#welcome .btn:hover {
+#welcome .box .btn:hover {
   background-color: #d9aa00;
 }
-#welcome .btn h5 {
+#welcome .box .btn h5 {
   font-size: 18px;
   color: white;
   margin: 10px;
