@@ -71,15 +71,25 @@ header nav a:hover {
   padding: 60px 0;
 }
 #services .textbox h1 {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 700;
   color: #110e0e;
-  font-family: Arial, Helvetica, sans-serif;
 }
 #services .textbox h3 {
   font-size: 18px;
   color: #7a7474;
   padding: 20px 0;
-  font-style: italic;
-  font-family: serif;
+}
+#services .box .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #ffc800;
+}
+#services .box .minibox .icon {
+  font-size: 30px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
