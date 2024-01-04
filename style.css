@@ -104,4 +104,28 @@ header nav a:hover {
 #services .col-md-4 .textbox h5 {
   color: #837680;
   line-height: 1.3;
+}
+
+#portfolio {
+  padding: 90px 0;
+  background: #f8f9fa;
+}
+#portfolio .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#portfolio .textbox h3 {
+  color: #7a7474;
+  margin: 18px 0 40px 0;
+}
+#portfolio .minibox .textbox {
+  padding: 25px 0;
+}
+#portfolio .minibox .textbox h2 {
+  font-size: 23px;
+  font-weight: 700;
+  margin: 10px 0 8px 0;
+}
+#portfolio .minibox .textbox h4 {
+  color: #7a7474;
 }/*# sourceMappingURL=style.css.map */
