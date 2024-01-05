@@ -43,22 +43,20 @@ header nav a:hover {
 }
 #welcome .box .textbox h3 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 90px;
   color: white;
-  margin: 20px 0;
-  margin-right: 30px;
+  margin-bottom: 30px;
+  line-height: 1.4;
 }
-#welcome .box .btn {
+#welcome .box .textbox .btn {
   width: 200px;
   height: 60px;
   background-color: #ffc800;
-  margin-left: 230px;
-  margin-top: 90px;
 }
-#welcome .box .btn:hover {
+#welcome .box .textbox .btn:hover {
   background-color: #d9aa00;
 }
-#welcome .box .btn h5 {
+#welcome .box .textbox .btn h5 {
   font-size: 18px;
   color: white;
   margin: 10px;
