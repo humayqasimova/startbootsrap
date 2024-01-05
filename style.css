@@ -40,13 +40,15 @@ header nav a:hover {
 #welcome .box .textbox h1 {
   font-size: 38px;
   color: white;
+  line-height: 1.4;
+  margin-bottom: 30px;
 }
 #welcome .box .textbox h3 {
   font-weight: 700;
   font-size: 90px;
   color: white;
   margin-bottom: 30px;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 #welcome .box .textbox .btn {
   width: 200px;
